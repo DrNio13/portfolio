@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.intro {
+	height: 100vh;
+	background: #31D1C1;
+}
+
+.welcome__greeting {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 4em;
+  padding-top: 10%;
+}
+
+.welcome__introduction {
+  text-align: center;
+  font-size: 4em;
+}
+
+.welcome__main-message {
+	text-align: center;
+	font-size: 3.5em;
+}
