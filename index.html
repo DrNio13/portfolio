@@ -8,7 +8,10 @@
 	<meta http-equiv="Content-Language" content="en-us">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'>	
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -16,24 +19,30 @@
 
 <!-- Introduction - Welcome fellow Guest User :) -->
 <header class="intro">
-	<section class="intro-container">
-		
+	<section class="container-fluid">
+		<div class="row">
 		<article class="welcome">
 			<h3 class="welcome__greeting">Hello</h3>
 			<h2 class="welcome__introduction">Welcome to my Online Portfolio</h2>
 			<h1 class="welcome__main-message">I develop Creative and High Performance Websites</h1>
 		</article>
 		
-		<div class="coding">
-				<figure class="coding__sample">
+		<div class="coding container">
+			<div class="row">
+				<figure class="coding__sample col-sm-4">
 					<img class="coding-sample__item" src="images/1placeit.png" alt="First Custom Online Portfolio">				
+					<div class="coding-overlay"></div>
 				</figure>
-				<figure class="coding__sample">
-					<img class="coding-sample__item" src="images/2placeit.png" alt="First Custom Online Portfolio">				
+				<figure class="coding__sample col-sm-4">
+					<img class="coding-sample__item" src="images/2placeit.png" alt="First Custom Online Portfolio">
+					<div class="coding-overlay"></div>				
 				</figure>
-				<figure class="coding__sample">
-					<img class="coding-sample__item" src="images/3placeit.png" alt="First Custom Online Portfolio">				
+				<figure class="coding__sample col-sm-4">
+					<img class="coding-sample__item" src="images/3placeit.png" alt="First Custom Online Portfolio">
+					<div class="coding-overlay"></div>				
 				</figure>
+			</div>
+		</div>
 		</div>
 	</section>
 </header>
@@ -42,32 +51,58 @@
 
 
 <!-- Main Content - Let the magic begins.. -->
-<main class="main-content" role="main">
+<main class="main-content container-fluid" role="main">
 	<section class="like-to-do"> 
 		
 		<article class="software">
-			<h2>Custom Software</h2>
-
-			<div>
-				<span></span>
-				<p></p>
-			</div>
-			<div>
-				<span></span>
-				<p></p>
-			</div>
-			<div>
-				<span></span>
-				<p></p>
-			</div>
-			<div>
-				<span></span>
-				<p></p>
+			<h2 class="software__headline">Custom Software</h2>
+			<div class="row">
+				<div class="col-md-3">
+					<span class="fa fa-html5"></span>
+					<p>I like using clean and semantic HTML and why not it's newest version..? HTML5! I found very interesting
+					some HTML5 APIs, especially when I want to built hybrid applications.
+					</p>
+				</div>
+				<div class="col-md-3">
+					<span class="fa fa-css3"></span>
+					<p>My interest as a Front End Dev started when I saw the capabilites of CSS3.
+					Builting a nice UI, with awesome design and nice smooth animations seems to be the present and 
+					the future of the web.
+					</p>
+				</div>
+				<div class="col-md-3">
+					<span class="fa fa-code"></span>
+					<p>I really enjoy using AJAX for bringing dynamic content to the web app. I find jQuery quite nice library, but I also use AngularJS for Single Page Apps.</p>
+				</div>
+				<div class="col-md-3">
+					<span class="fa fa-mobile"></span>
+					<p>Since I use Javascript quite often, I find really interesting to built hybrid applications.
+					I am a big fan of Ionic Framework!
+					</p>
+				</div>
 			</div>
 
 		</article>
 		<article class="cms">
-			<h2>CMS Customization</h2>
+			<h2 class="cms__headline">CMS Customization</h2>
+			<div class="row">
+				<div class="col-md-4">
+					<span class="fa fa-joomla"></span>
+					<p>Content Management Systems are really popular these days.
+					I have created a lot of websites using CMS like Joomla.
+					</p>
+				</div>
+				<div class="col-md-3">
+					<span class="fa fa-mobile"></span>
+					<p>I frequently use Front End Frameworks such us Bootstrap, UIKit, Foundation for the responsive grid.
+					</p>
+				</div>
+				<div class="col-md-3">
+					<span class="fa fa-database"></span>
+					<p>Now and then I used MySQL and PHP for Back-End puproses.
+					</p>
+				</div>
+			</div>
 		</article>
 
 	</section>

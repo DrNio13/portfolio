@@ -1,11 +1,16 @@
 body {
 	margin: 0;
 	padding: 0;
+	font-family: 'PT Serif', serif;
+}
+
+img {
+	max-width: 100%;
 }
 
 .intro {
 	height: 100vh;
-	background: #31D1C1;
+	background: rgb(49,209,193);
 }
 
 .welcome__greeting {
@@ -23,4 +28,43 @@ body {
 .welcome__main-message {
 	text-align: center;
 	font-size: 3.5em;
+}
+
+.coding-overlay {
+	background: rgba(49,209,193,0.3);
+	position: absolute;
+	height: 82%;
+	width: 86%;
+	top: 30px;
+	left: 50px;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.coding__sample {
+	cursor: pointer;
+}
+
+.coding__sample:hover .coding-overlay{
+	height: 0px;
+	width: 0px;
+}
+
+.software__headline {
+  text-align: center;
+}
+
+.main-content {
+  background-color: #4D4D4D;
+}
+
+.like-to-do {
+	height: 100vh;
+}
+
+.cms__headline {
+	text-align: center;
 }
